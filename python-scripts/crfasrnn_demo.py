@@ -24,8 +24,8 @@ from PIL import Image as PILImage
 _CAFFE_ROOT = "../caffe/"
 
 # Model definition and model file paths
-_MODEL_DEF_FILE = "TVG_CRFRNN_new_deploy.prototxt"  # Contains the network definition
-_MODEL_FILE = "TVG_CRFRNN_COCO_VOC.caffemodel"  # Contains the trained weights. Download from http://goo.gl/j7PrPZ
+_MODEL_DEF_FILE = "./TVG_CRFRNN_new_deploy.prototxt"  # Contains the network definition
+_MODEL_FILE = "./TVG_CRFRNN_COCO_VOC.caffemodel"  # Contains the trained weights. Download from http://goo.gl/j7PrPZ
 
 sys.path.insert(0, _CAFFE_ROOT + "python")
 import caffe
